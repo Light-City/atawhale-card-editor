@@ -531,7 +531,7 @@ const DatawhaleCardEditor = () => {
                   </div>
 
                   <div>
-                    <Label className="text-white/90">我���以为社区做什么</Label>
+                    <Label className="text-white/90">我可以为社区做什么</Label>
                     <Textarea
                       value={cardData.contribution}
                       onChange={(e) => handleInputChange("contribution", e.target.value)}
